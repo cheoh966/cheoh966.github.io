@@ -1,0 +1,162 @@
+*{
+	margin: 0 auto;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	background-image: url("http://content.rustinandmallory.netdna-cdn.com/u/751/ANTHRO-PLAYSUIT-BLUSH-20859D__78785_std.jpg");
+}
+h2{
+	background: transparent;
+	color: #e0f7fa;
+	padding: 20px;
+	margin: 30px;
+	border: 3px solid #e0f7fa;
+	border-radius: 40px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+.top-triangles2{
+	display: flex;
+}
+.bottom-triangles2{
+	display: flex;
+}
+.one2{
+	width: 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #dcedc2;
+}
+.two2{
+	margin-left: -75px;
+	width: 0;
+	height: 0;
+	border-right: 0px solid transparent;
+	border-left: 75px solid transparent;
+	border-top: 100px solid #ffd3b5;
+}
+.three2{
+	margin-left: 0px;
+	width: 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 0px solid transparent;
+	border-top: 100px solid #ffd3b5;
+}
+.four2{
+	margin-left: -75px;
+	width: 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #ffaaa6;
+}
+
+.five2{
+	margin-left: 0px;
+	width: 0;
+	height: 0;
+	border-right: 0px solid transparent;
+	border-left: 150px solid transparent;
+	border-top: 150px solid #ff8c94;
+}
+.six2{
+	margin-left: 0px;
+	width: 0;
+	height: 0;
+	border-right: 150px solid transparent;
+	border-left: 0px solid transparent;
+	border-top: 150px solid #ff8c94;
+}
+
+
+
+.top-triangles1{
+	display: flex;
+}
+.bottom-triangle1{
+	display: flex;
+}
+.one1{
+	width 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #f8b195;
+}
+.two1{
+	margin-left: -75px;
+	width 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-top: 100px solid #f67280;
+}
+.three1{
+	margin-left: -75px;
+	width: 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #c06c84;
+}
+.four1{
+	width: 0;
+	height: 0;
+	border-top: 150px solid #6c5b7b;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+}
+
+
+
+.top-triangles{
+	display: flex;
+}
+.bottom-triangle{
+	display: flex;
+}
+.one{
+	width 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #e5fcc2;
+}
+.two{
+	margin-left: -75px;
+	width 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-top: 100px solid #9de0ad;
+}
+.three{
+	margin-left: -75px;
+	width: 0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	border-bottom: 100px solid #45ada8;
+}
+.four{
+	width: 0;
+	height: 0;
+	border-top: 150px solid #547980;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+}
+
+
+
+
+
+
