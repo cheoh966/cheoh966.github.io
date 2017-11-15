@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+    <head>
+        <style>
+            #hints {
+                width: 500px;
+                padding: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                background-color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="hints">
+            <h1>Hints</h1>
+            <ul>
+                <li>Use the CSS <code>rgb()</code> notation to set the color. See documentation <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgb()">here</a>.</li>
+                <li>We can create percentages by dividing an input value by the highest value it could ever reach. For example, the mouse X position can never be greater than the width of the page, so to turn it in to a percentage we would do <code>currentMouseX / widthOfPage</code>. Once we have a percentage, we can multiply it by our target maximum value. For example, the maximum value of a color channel with <code>rgb()</code> is 255.</li>
+                <li>You can get the dimensions of the page with <code>window.innerWidth</code> and <code>window.innerHeight</code>.</li>
+                <li>Note that <code>rgb()</code> requires whole numbers. If you have decimal places in a number, you can remove them by using <code>Math.round()</code>. See documentation <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round">here</a>.</li>
+                <li>The current value of the page's color is <code id="rgb">(move mouse to see!)</code>.</li>
+                <li>If you finish: can you come up with a novel way to change the color's blue value?</li>
+            </ul>
+        </div>
+
+        <script src="1114.js"></script>
+    </body>
+</html>
