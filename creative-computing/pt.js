@@ -3,6 +3,7 @@
 
 var myGamePiece;
 
+
 function startGame() {
     myGamePiece = new component(250, 250, "pink", 10, 600);
     myGameArea.start();
